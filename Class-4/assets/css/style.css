@@ -1,0 +1,79 @@
+/* Base CSS */
+a:focus, input:focus,textarea:focus, button:focus {outline: 0 solid;}
+a:hover { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open-Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+.section-padding {
+    padding: 80px 0;
+}
+/* ---Service Box --- */
+.service-box-bg-1 {background: url(../img/bg-1.jpg);}
+.service-box-bg-2 {background: url(../img/bg-2.jpg);}
+.service-box-bg-3 {background: url(../img/bg-3.jpg);}
+
+.service-box-bg {
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+}
+
+.service-box-inner {
+    border: 1px solid #eeeeee;
+    border-top: none;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.service-box-inner h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+p.service-box-meta {
+    font-size: 13px;
+    color: #9a9a9a;
+    margin: 0;
+}
+
+.single-service-box {
+    position: relative;
+}
+
+.service-box-more-warp {
+    position: absolute;
+    left: 0;
+    bottom: -21px;
+    width: 100%;
+    text-align: center;
+}
+
+a.bordered-btn {
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 700;
+    border: 1px solid #eeeeee;
+    padding: 10px 30px;
+    background: #fff;
+}
+
+
+/* ==========Service box End =================*/
