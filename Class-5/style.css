@@ -1,0 +1,103 @@
+/* Base CSS */
+a:focus, input:focus,textarea:focus, button:focus {outline: 0 solid;}
+a:hover { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open-Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+.section-padding {
+    padding: 80px 0;
+}
+/* -- Uses of owlcarousel -- */
+.section-title h2 {
+    color: #03c0ff;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.section-sep {
+    width: 300px;
+    height: 2px;
+    background: #03c0ff;
+    margin: 0 auto 30px;
+    position: relative;
+}
+
+.section-sep:after {
+    width:  100px;
+    height: 5px;
+    position: absolute;
+    content: "";
+    background: #03c0ff;
+    left: 50%;
+    margin-left: -50px;
+    top: -1.5px;
+} 
+.section-title p {
+    margin-bottom: 50px;
+}
+
+.team-box {
+    padding: 30px;
+    text-align: center;
+}
+
+.team-box img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+}
+
+.team-box p span {
+    color: #03c0ff;
+}
+
+.team-box p {
+    font-size: 14px;
+}
+
+.team-box h4 {
+    color: #03c0ff;
+}
+
+.team-box h4 span {
+    display: block;
+    font-size: 19px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.team-carousel .owl-nav div {
+    position: absolute;
+    width: 35px;
+    background: #03c0ff;
+    height: 35px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    left: -70px;
+    top: 50%;
+    margin-top: -17.5px;
+}
+
+.team-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: -70px;
+}
