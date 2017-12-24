@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum:400,700');
+/*font-family: 'Cuprum', sans-serif;*/
+/* Base CSS */
+a:focus, input:focus,textarea:focus, button:focus {outline: 0 solid;}
+a:hover { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open-Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+.section-padding {
+    padding: 80px 0;
+}
+
+/* ========= Team Overlay=========== */
+body, h2 {
+    font-weight: 400;
+}
+
+.section-title h2 {
+    font-size: 30px;
+}
+
+.section-title p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.section-title {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.contact-us-form p {
+    font-size: 16px;
+}
+p.form-element {
+    position: relative;
+}
+
+p.form-element label {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.contact-us-form input[type=text], .contact-us-form input[type=email], .contact-us-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 2px;
+    padding-top: 35px;
+    transition: .2s;
+}
+
+.contact-us-form textarea {
+    max-height: 150px;
+}
+
+input[type="submit"] {}
+
+.contact-us-form input[type="submit"] {
+    float: right;
+    border: none;
+    background: #6D59B0;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+p.small-text {
+    font-size: 14px;
+    padding: 11px 0;
+    margin: 0px;
+}
+
+input#firstname {}
+
+.contact-us-form input[type=text]:focus, .contact-us-form input[type=email]:focus, .contact-us-form textarea:focus {
+    background: #F0F0F0;
+}
