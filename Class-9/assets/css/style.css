@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee&subset=latin-ext,vietnamese');
+/*font-family: 'Bungee', cursive;*/
+/* Base CSS */
+a:focus, input:focus,textarea:focus, button:focus {outline: 0 solid;}
+a:hover { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open-Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+.section-padding {
+    padding: 80px 0;
+}
+
+.product-bg-1 {background-image: url(../img/man-1.jpg);}
+.product-bg-2 {background-image: url(../img/man-2.jpg);}
+.product-bg-3 {background-image: url(../img/man-3.jpg);}
+.product-bg-4 {background-image: url(../img/man-4.jpg);}
+.product-bg-5 {background-image: url(../img/man-5.jpg);}
+
+
+.section-title h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.product-bg {
+    height: 300px;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+}
+
+.product-bg span.ticker {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 50%;
+    font-size: 12px;
+}
+.ticker-green {
+    background: #2AB89D;
+}
+.ticker-red {
+    background: #F84F4C;
+}
+
+.single-product-box h4 {
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.single-product-box .product-price {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+}
+
+.product-bg-hover a {
+    display: block;
+    float: left;
+    padding: 5px;
+    background: #fff;
+    color: #555;
+    width: 33.334%;
+    text-align: center;
+    border-left: 1px solid #ddd;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.product-bg-hover a:hover {
+    color: #444;
+}
+
+.product-bg-hover {
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    bottom: -10px;
+    width: 200px;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.product-bg:hover .product-bg-hover {
+    opacity: 1;
+    visibility: visible;
+    bottom: 30px;
+}.product-carousel .owl-nav div {
+    background: #000;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 37%;
+    left: -15px;
+    opacity: .5;
+}
+
+.product-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: 0;
+    margin-right: -15px;
+}
