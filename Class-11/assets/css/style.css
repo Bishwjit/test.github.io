@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee&subset=latin-ext,vietnamese');
+/*font-family: 'Bungee', cursive;*/
+/* Base CSS */
+a:focus, input:focus,textarea:focus, button:focus {outline: 0 solid;}
+a:hover { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open-Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+.section-padding {
+    padding: 80px 0;
+}
+
+.boxed-btn, .welcome-hero-area:after {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#005897+0,0091b7+100 */
+background: rgb(0,88,151); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(0,88,151,1) 0%, rgba(0,145,183,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(0,88,151,1) 0%,rgba(0,145,183,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(0,88,151,1) 0%,rgba(0,145,183,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005897', endColorstr='#0091b7',GradientType=1 ); /* IE6-9 */
+}
+.bg-1 {background: url(../img/bg-1.jpg);}
+.bg-2 {background: url(../img/bg-2.jpg);}
+.bg-3 {background: url(../img/bg-3.jpg);}
+.bg-4 {background: url(../img/bg-4.jpg);}
+
+.welcome-hero-area {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 100px;
+}
+
+.welcome-hero-area:after {
+    position: absolute;
+    width: 65%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+    z-index: -1;
+}
+.header-area {
+    padding: 40px 0px;
+}
+
+.logo a, .mainmenu a {
+    color: #fff;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.mainmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mainmenu ul li {
+    display: inline-block;
+}
+
+.mainmenu ul li a {
+    display: block;
+    padding: 10px 15px;
+    font-size: 12px;
+    transition: .3s;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.mainmenu ul li a:hover {
+    color: #B9D055;
+}
+
+.header-right-content
+ a {
+    color: #333;
+    display: inline-block;
+    font-size: 12px
+}
+
+span.social-link {
+    border-left: 1px solid #ddd;
+    margin-left: 15px;
+    padding-left: 15px;
+    margin-right: 40px;
+}
+
+span.social-link a {
+    display: inline-block;
+    padding: 7px 5px;
+    font-size: 12px;
+}
+
+.single-slide-item {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-color: #5c5c5c;
+    display: table;
+    width: 100%;
+}
+
+.slide-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.slide-text {
+    padding:  120px;
+    max-width: 700px;
+}
+
+.slide-text h4 {
+    color: #60B9D3;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.slide-text h3 {
+    font-size: 52px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+a.boxed-btn {
+    color: #fff;
+    display: inline-block;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    font-weight: 700;    
+}
+
+.slide-item .owl-nav div {
+    color: #fff;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 20px;
+    font-size: 24px;
+    opacity: .5;
+}
