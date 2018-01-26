@@ -85,7 +85,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05000000', e
 }
 
 .portfolio-item:hover:after {
-    opacity: .5;
+    opacity: 1;
 }
 
 .portfolio-item:hover .portfolio-hover {
