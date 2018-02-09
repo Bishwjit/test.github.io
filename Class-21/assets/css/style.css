@@ -1,0 +1,107 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-padding {padding: 100px 0;}
+
+
+body {
+    background-color: #F4F4F4;
+}
+
+ul.featured-menu {
+    margin: 0 0 100px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+ul.featured-menu li {
+    display: inline-block;
+}
+
+ul.featured-menu li a {
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    margin: 0 30px;
+}
+ul.featured-menu li.active a {border-color: #F1C20F;}
+
+.single-featured-item {
+    position: relative;
+    display: table;
+    height: 500px;
+}
+.feature-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 500px;
+    height: 500px;
+    background: #F9A9AF;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.feature-bg-1 {background-image: url(../img/Pineapple.png);}
+.feature-bg-2 {background-image: url(../img/mango.png);}
+.feature-bg-3 {background-image: url(../img/printer.png);}
+.feature-bg-4 {background-image: url(../img/coffe.png);}
+.featured-text {
+    padding-left: 550px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.featured-text h2 {
+    font-size: 60px;
+    font-weight: 400;
+    color: #333;
+    opacity: .5;
+}
+
+.featured-text h3 {
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+a.featured-btn {
+    color: #fff;
+    background: #F1C20E;
+    padding: 10px 50px;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 15px 0;
+}
