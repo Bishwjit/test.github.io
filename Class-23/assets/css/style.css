@@ -1,0 +1,235 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a:hover { text-decoration: none }
+.section-padding {padding: 100px 0;}
+
+
+
+.display {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.display th, .display td {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 12px;
+}
+
+.display th {
+    background-color: #F0F0F0;
+    font-weight: 400;
+    text-align: center;
+}
+.display h4 {
+    font-size: 17px;
+    color: #191919;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    line-height: 24px;
+}
+
+.display p {
+    color: #868686;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* Template Design */
+.portfolio-item {width: 100%;}
+.portfolio-bg-1 {background-image: url(../img/bg-1.jpg);}
+.portfolio-bg-2 {background-image: url(../img/bg-2.jpg);}
+.portfolio-bg-3 {background-image: url(../img/bg-3.jpg);}
+.portfolio-bg-4 {background-image: url(../img/bg-4.jpg);}
+.portfolio-bg-5 {background-image: url(../img/bg-5.jpg);}
+
+
+.section-title h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.section-title p {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 700;
+    color: #737373;
+}
+
+.borderd-icon-wrap {
+    display: inline-block;
+    position: relative;
+}
+
+.borderd-icon-wrap:before, .borderd-icon-wrap:after {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 2px;
+    content: "";
+    background: #FFA700;
+}
+
+i.fa.fa-star {
+    color: #FFA700;
+    font-size: 30px;
+}
+
+.borderd-icon-wrap:before {
+    left: -70px;
+}
+
+.borderd-icon-wrap:after {
+    right: -70px;
+}
+.single-portfolio-item {
+    display: block;
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.portfolio-text {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-style: italic;
+    color: #FFCE44;
+    padding: 20px;
+    z-index: 2;
+    transition: .3s;
+}
+
+
+.portfolio-text h4 {
+    color: #fff;
+    font-style: normal;
+    font-size: 18px;
+    margin: 0;
+}
+
+.portfolio-hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: table;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.portfolio-hover-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.portfolio-hover-inner a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #FFCE44;
+    color: #fff;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: .3s
+}
+.portfolio-hover-inner a:hover {
+    background: #dcb139;
+}
+.portfolio-hover-inner a.blue-bg {
+    background: #23CFF7;
+    transition: .3s;
+}
+.portfolio-hover-inner a.blue-bg:hover {
+    background: #14748a;
+}
+
+.portfolio-hover-inner:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #000000;
+    z-index: -1;
+    opacity: .8;
+}
+
+.single-portfolio-item:hover .portfolio-text {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.single-portfolio-item:hover .portfolio-hover {
+    visibility: visible;
+    opacity: 1;
+}
+.portfolio-item .owl-nav div {
+    position: absolute;
+    left: 10px;
+    color: #fff;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    background: #39A3FF;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-top: -20px;
+}
+
+.portfolio-item .owl-nav div.owl-next {
+    left: auto;
+    right: 10px;
+}
+.portfolio-item .owl-dots div {
+    display: inline-block;
+    height: 10px;width: 10px;
+    background: #000;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.portfolio-item .owl-dots div.owl-dot.active {
+    background: #23CFF7;
+}
+
+.portfolio-item .owl-dots {
+    text-align: center;
+    margin: 20px;
+}
