@@ -1,0 +1,208 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a:hover { text-decoration: none }
+.section-padding {padding: 100px 0; margin-bottom: 20px;}
+
+
+
+.display {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.display th, .display td {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 12px;
+}
+
+.display th {
+    background-color: #F0F0F0;
+    font-weight: 400;
+    text-align: center;
+}
+.display h4 {
+    font-size: 17px;
+    color: #191919;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    line-height: 24px;
+}
+
+.display p {
+    color: #868686;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* Template Design */
+h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 30px 0;
+    color: #777;
+}
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #F5F5F5;
+}
+
+.mainmenu li {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.mainmenu li a {
+    display: block;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #232856;
+    transition: .3s;
+}
+.mainmenu li ul {
+    background: #232856;
+    width: 200px;
+    position: absolute;
+    z-index: 2;
+    top: 70px;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.mainmenu li ul li {
+    display: block;
+}
+
+.mainmenu li ul li a {
+    display: block;
+    color: #fff;
+    padding: 5px 10px;
+
+}
+
+.mainmenu li:hover ul {
+    visibility: visible;
+    opacity: 1;
+    top: 40px;
+}
+.mainmenu li:hover > a {
+    color: #D71FDD;
+}
+.mainmenu li:hover li:hover > a {
+    background-color: #D71FDD;
+    color: #fff;
+    padding-left: 12px;
+}
+.mainmenu ul li ul li ul.sub-dp {
+    position: absolute;
+    left: 210px;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #0d1450;
+}
+
+.mainmenu ul li ul li:hover ul.sub-dp {
+    opacity: 1;
+    visibility: visible;
+    left: 200px;
+}
+.mainmenu li:hover li:hover li:hover > a {
+    background: #1CA261;
+    padding-left: 12px;
+}
+
+
+
+/* =================================================== */
+.downarro {
+    position: absolute;
+    top: 14px;
+    right: -4px;
+}
+.leftarro {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+
+/* ==================================================== */
+
+.mainmenu.item-2 li ul {
+    top:40px;
+}
+.item-2 li ul {
+    transform: scale(.5,.5);
+}
+.item-2 li:hover ul {
+    transform: scale(1,1);
+}
+/* ============================================================ */
+
+.mainmenu.item-3 li ul {
+    top:40px;
+}
+.item-3 li ul {
+    transform: rotate(20deg);
+}
+.item-3 li:hover ul {
+    transform: rotate(0deg);
+}
+
+/* ============================================================ */
+
+.mainmenu.item-4 li ul {
+    top:40px;
+}
+.item-4 li ul {
+    transform: skewX(20deg);
+}
+.item-4 li:hover ul {
+    transform: skewX(0deg);
+}
+
+/* ============================================================ */
+
+.mainmenu.item-47 li ul {
+    top:40px;
+}
+.item-5 li ul {
+    transform: skewY(20deg);
+}
+.item-5 li:hover ul {
+    transform: skewY(0deg);
+}
