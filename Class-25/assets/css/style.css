@@ -1,0 +1,241 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a:hover { text-decoration: none }
+.section-padding {padding: 100px 0; margin-bottom: 20px;}
+
+
+
+.display {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.display th, .display td {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 12px;
+}
+
+.display th {
+    background-color: #F0F0F0;
+    font-weight: 400;
+    text-align: center;
+}
+.display h4 {
+    font-size: 17px;
+    color: #191919;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    line-height: 24px;
+}
+
+.display p {
+    color: #868686;
+    font-weight: 400;
+    line-height: 24px;
+}
+body, html {
+    height: 100%;
+}
+
+/* Template Design */
+.welcome-area {
+    height: 100%;
+    background: #a647ff;
+    background: -moz-linear-gradient(45deg, #a647ff 0%, #591dff 100%);
+    background: -webkit-linear-gradient(45deg, #a647ff 0%,#591dff 100%);
+    background: linear-gradient(45deg, #a647ff 0%,#591dff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a647ff', endColorstr='#591dff',GradientType=1 );
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    color: #fff;
+}
+
+
+.welcome-area:after, .welcome-area:before {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background: #A14EFF;
+    content: "";
+    border-radius: 50%;
+}
+.welcome-area:after {
+    left: -150px;
+    top: 300px;
+    z-index: -1;
+    animation: animate-layout 10s infinite;
+}
+
+.welcome-area:before {
+    right: -150px;
+    top: 200px;
+    z-index: -1;
+    opacity: .3;
+    animation: animate-layout-second 30s infinite;
+}
+
+@keyframes animate-layout {
+    0% {left: -150px; top: 300px;}
+    25% {left: -110px; top: 200px;}
+    50% {left: -40px; top: 250px;}
+    75% {left: 0px; top: 180px;}
+    100% {left: -150px; top: 300px;}
+}
+
+@keyframes animate-layout-second {
+    0% {right: -150px; top: 240px;}
+    25% {right: -110px; top: 300px;}
+    50% {right: -40px; top: 250px;}
+    75% {right: 0px; top: 270px;}
+    100% {right: -150px; top: 240px;}
+}
+
+.header-area {
+    padding: 30px;
+}
+
+.logo a {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: double 4px transparent;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+    background-image: linear-gradient(#8A37FF, #8A37FF), radial-gradient(circle at top left, #2AB8FD,#CD07FF);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.mainmenu {
+    text-align: right;
+    padding: 9px 0;
+}
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu li {
+    display:  inline-block;
+    position: relative;
+}
+
+.mainmenu li a {
+    display:  block;
+    padding: 5px 10px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.buy-now span {
+    float: left;
+    width: 30px;
+    height: 2px;
+    background: #1894A6;
+    margin-top: 23px;
+    margin-right: 20px;
+}
+
+.buy-now a {
+    display: inline-block;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.buy-now {
+    margin-top: 3px;
+}
+
+.welcome-content h2 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 17px;
+}
+
+.welcome-content {
+    margin-bottom: 65px;
+}
+.welcome-content p {
+    opacity: .7;
+    margin: 0;
+}
+
+.welcome-content p span {
+    text-decoration: underline;
+}
+
+.welcome-single-item i {
+    font-size: 36px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.welcome-single-item h6 {
+    text-transform: capitalize;
+}
+.welcome-single-item p {
+    opacity: .6;
+}
+
+.side-link {
+    height: 100%;
+    position: relative;
+}
+
+.side-link a {
+    position: absolute;
+    right: -157px;
+    width: 441px;
+    top: 80px;
+    display: block;
+    color: #fff;
+    border: 1px solid;
+    padding: 30px 56px;
+    height: 79px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.side-link a i {
+    margin-right: 22px;
+}
