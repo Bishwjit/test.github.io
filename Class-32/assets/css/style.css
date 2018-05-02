@@ -1,0 +1,143 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700');
+/* 
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Muli', sans-serif;
+
+ */
+
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a:hover { text-decoration: none }
+.section-padding {padding: 100px 0; margin-bottom: 20px;}
+
+
+
+.display {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.display th, .display td {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 12px;
+}
+
+.display th {
+    background-color: #F0F0F0;
+    font-weight: 400;
+    text-align: center;
+}
+.display h4 {
+    font-size: 17px;
+    color: #191919;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    line-height: 24px;
+}
+
+.display p {
+    color: #868686;
+    font-weight: 400;
+    line-height: 24px;
+}
+body, html {
+    height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+/* Template Design */
+.section-padding.dark-bg {
+    background: #191D1C;
+}
+
+.section-padding {
+    margin-top: 200px;
+}
+
+.section-padding h1 {
+    font-size: 100px;
+    color: #fff;
+    position: relative;
+    margin: 0;
+}
+
+.section-padding h1:after {
+    position: absolute;
+    right: 298px;
+    bottom: 20px;
+    width: 30px;
+    height: 4px;
+    content: "";
+    background: #fff;
+    text-transform: inherit;
+}
+
+.section-padding  h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 6px;
+}
+
+.section-padding p {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 30px 0;
+}
+
+a.boxed-btn {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    letter-spacing: 5px;
+    transition: .3s;
+}
+
+img.absolute-img {
+    margin-top: -190px;
+}
+
+a.boxed-btn:hover {
+    background: #fff;
+    color: #333;
+    border-color: #fff;
+}
