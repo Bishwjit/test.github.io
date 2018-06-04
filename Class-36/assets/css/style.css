@@ -1,0 +1,219 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'News Cycle', sans-serif;
+
+ */
+
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a:hover { text-decoration: none }
+.section-padding {padding: 100px 0; margin-bottom: 20px;}
+
+
+
+.display {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.display th, .display td {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 12px;
+}
+
+.display th {
+    background-color: #F0F0F0;
+    font-weight: 400;
+    text-align: center;
+}
+.display h4 {
+    font-size: 17px;
+    color: #191919;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    line-height: 24px;
+}
+
+.display p {
+    color: #868686;
+    font-weight: 400;
+    line-height: 24px;
+}
+body, html {
+    height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+/* Template Design */
+.stethoscope-bg {
+    background: url(../img/bg-1.png) no-repeat scroll bottom right;
+    background-size: 30%;
+}
+.pricing-content li:before {font-family: FontAwesome; content: "\f046";}
+
+
+.section-title {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.section-title h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.section-title h2 span {
+    color: #00A5EF;
+}
+
+.section-title p {
+    color: #999999;
+    font-weight: 700;
+}
+
+.pricing-title {
+    background: #01BCD5;
+    position: relative;
+    padding-left: 30px;
+    padding-top: 90px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.stethoscope-bg .col-md-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.stethoscope-bg .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.pricing-sticker {
+    background: #3A3D4F;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 29px;
+    margin-top: -50px;
+    top: 0;
+}
+
+.pricing-sticker span {
+    font-size: 28px;
+    color: #01BCD5;
+    line-height: 0px;
+}
+
+.pricing-title h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.pricing-title h2 strong {
+    font-weight: 700;
+}
+
+.color-2 {
+    background: #02A4EF;
+}
+
+.color-3 {
+    background: #2BB6F7;
+}
+
+.pricing-content li:nth-child(2n+2) {
+    background: #F5F6F8;
+}
+
+.pricing-content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pricing-content li {
+    padding: 10px;
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+.pricing-content li:before {
+    margin-right: 10px;
+}
+
+a.boxed-btn {
+    border: 1px solid #01BCD5;
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #01BCD5;
+    margin-top: 30px;
+    transition: .3s;
+}
+
+a.boxed-btn:hover {
+    color: #fff;
+    background: #01BCD5;
+}
+
+.pricing-btn {
+    padding: 20px 30px;
+}
+
+.single-pricing-box {
+    background: #fff;
+}
+
+.pricing-content, .pricing-btn {
+    border-left: 1px solid #ddd;
+}
+
+.col-md-4:nth-child(3) .pricing-content, .col-md-4:nth-child(3) .pricing-btn {
+    border-right: 1px solid #ddd;
+}
+
+.pricing-btn {
+    border-bottom: 1px solid #ddd;
+}
