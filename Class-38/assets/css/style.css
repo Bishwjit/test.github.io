@@ -1,0 +1,126 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'News Cycle', sans-serif;
+
+ */
+
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a:hover { text-decoration: none }
+.section-padding {padding: 100px 0;}
+
+
+
+.display {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.display th, .display td {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 12px;
+}
+
+.display th {
+    background-color: #F0F0F0;
+    font-weight: 400;
+    text-align: center;
+}
+.display h4 {
+    font-size: 17px;
+    color: #191919;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    line-height: 24px;
+}
+
+.display p {
+    color: #868686;
+    font-weight: 400;
+    line-height: 24px;
+}
+body, html {
+    height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+/* Template Design */
+.section-padding {
+    background: #B9151C;
+}
+
+.section-padding, .section-padding div {
+    height: 100%;
+}
+
+
+
+.section-padding .particle-content-warraper, .section-padding .particle-content-warraper div {
+    height: auto;
+}
+
+.particle-content-inner {
+    display: table;
+}
+
+.particle-content-warraper {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+}
+
+.particle-content-warraper h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.particle-content-warraper p {
+    font-size: 20px;
+}
+.particles-js {position: relative;}
+
+#particles-js canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
