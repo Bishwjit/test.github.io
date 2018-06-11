@@ -1,0 +1,118 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a:hover { text-decoration: none }
+.section-padding {padding: 100px 0; margin-bottom: 20px;}
+
+
+
+.display {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.display th, .display td {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 12px;
+}
+
+.display th {
+    background-color: #F0F0F0;
+    font-weight: 400;
+    text-align: center;
+}
+.display h4 {
+    font-size: 17px;
+    color: #191919;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    line-height: 24px;
+}
+
+.display p {
+    color: #868686;
+    font-weight: 400;
+    line-height: 24px;
+}
+body, html {
+    height: 100%;
+}
+
+/* Template Design */
+
+.counter-1 {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/section-bg.jpg);
+    margin-bottom: 50px;
+}
+.counter-2 {
+   background: linear-gradient(rgba(34, 34, 34, 0.9), rgba(34, 34, 34, 0.9)), url("../img/section-bg.jpg") repeat scroll 0 0px / cover;
+}
+.section-padding {
+    
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding-top: 200px;
+}
+
+.single-counter-item {
+    color: #fff;
+    text-align: center;
+}
+
+.single-counter-item i.lnr {
+    font-size: 42px;
+}
+
+.single-counter-item h3 {
+    margin: 40px 0px 20px 0px;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.single-counter-item p {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.counter-2 .single-counter-item p {
+    background: #F9690E;
+    font-size: 14px;
+    padding: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.counter-2 .single-counter-item h3 {
+    margin: 40px 0px 20px 0px;
+    font-size: 70px;
+    font-weight: 700;
+}
