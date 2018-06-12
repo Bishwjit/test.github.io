@@ -1,0 +1,149 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+a:hover { text-decoration: none }
+.section-padding {padding: 100px 0;}
+
+
+
+.display {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.display th, .display td {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 12px;
+}
+
+.display th {
+    background-color: #F0F0F0;
+    font-weight: 400;
+    text-align: center;
+}
+.display h4 {
+    font-size: 17px;
+    color: #191919;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    line-height: 24px;
+}
+
+.display p {
+    color: #868686;
+    font-weight: 400;
+    line-height: 24px;
+}
+body, html {
+    height: 100%;
+}
+
+/* Template Design */
+
+.section-padding {background: url(../img/section-bg.png);}
+
+.section-bg-1 {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.blue-overlay, .black-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 40%;
+    background: #0f8dca;
+    opacity: .8;
+}
+
+.black-overlay {
+    left: auto;
+    right: 0;
+    background: #000;
+    width: 60%;
+}
+
+.single-service-box i.fa {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 22px;
+}
+
+.single-service-box {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 45px;
+}
+
+.single-service-box h6 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+body {
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.section-title p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+.section-title h2 {
+    font-size: 48px;
+    line-height: 55px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.section-title h2:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    height: 1px;
+    background: #1ba3e4;
+}
+
+.section-title {
+    margin-bottom: 60px;
+}
