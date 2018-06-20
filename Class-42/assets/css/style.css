@@ -1,0 +1,179 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Vidaloka', serif;
+}
+
+a:hover { text-decoration: none }
+.section-padding {padding: 100px 0;}
+
+
+
+.display {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.display th, .display td {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 12px;
+}
+
+.display th {
+    background-color: #F0F0F0;
+    font-weight: 400;
+    text-align: center;
+}
+.display h4 {
+    font-size: 17px;
+    color: #191919;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    line-height: 24px;
+}
+
+.display p {
+    color: #868686;
+    font-weight: 400;
+    line-height: 24px;
+}
+body, html {
+    height: 100%;
+}
+
+/* Template Design */
+
+.styled-bg-1 {background: url(../img/bg-1.jpg);}
+.newsletter-text h3 {
+    font-size: 30px;
+}
+
+.newsletter-text p {
+    font-size: 16px;
+    color: #aaa;
+}
+
+.newsletter-form input[type=email] {
+    border: none;
+    padding: 10px 20px;
+    width: 65%;
+}
+
+.newsletter-form input[type=email] {
+    border-bottom: 1px solid #ddd;
+}
+
+.newsletter-form button {
+    background: none;
+    border: none;
+    padding: 10px;
+    color: #333;
+    float: right;
+    width: 25%;
+}
+
+.newsletter-form button {
+    border-bottom: 2px solid #ddd;
+}
+
+.newsletter-form {
+    margin-top: 10px;
+}
+
+.footer-top {
+    background: #f4f4f4;
+    padding: 50px 0;
+    margin-top: 241px;
+    margin-bottom: 50px;
+}
+
+.footer-bottom-title h3 {
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.footer-bottom-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-bottom-menu li {
+    display: inline-block;
+    padding-left: 40px;
+}
+
+.footer-bottom-menu {
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.footer-bottom-menu li a {
+    color: #333;
+    font-weight: 700;
+}
+
+.footer-bottom-social-link {
+    text-align: right;
+}
+
+.footer-bottom-social-link a {
+    color: #333;
+    display: inline-block;
+    padding-left: 17px;
+}
+
+.footer-bottom-title {
+    margin-bottom: 0;
+}
+
+.footer-bottom .container {
+    position: relative;
+}
+
+.styled-bg {
+    position: absolute;
+    left: -223px;
+    bottom: 0;
+    width: 391px;
+    height: 437px;
+    background-size: contain;
+}
+
+.styled-bg:after {
+    position: absolute;
+    left: -40px;
+    top: 40px;
+    width: 100%;
+    height: 100%;
+    background: #f4f4f4;
+    content: "";
+    z-index: -1;
+}
