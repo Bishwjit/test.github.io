@@ -1,0 +1,165 @@
+/* Base CSS */
+
+@font-face {
+    font-family: 'Asiyah Script';
+    src: url('../fonts/AsiyahScript.eot');
+    src: url('../fonts/AsiyahScript.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AsiyahScript.woff2') format('woff2'),
+        url('../fonts/AsiyahScript.woff') format('woff'),
+        url('../fonts/AsiyahScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Vidaloka', serif;
+}
+
+a:hover { text-decoration: none }
+.section-padding {padding: 100px 0;}
+
+
+
+.display {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.display th, .display td {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 12px;
+}
+
+.display th {
+    background-color: #F0F0F0;
+    font-weight: 400;
+    text-align: center;
+}
+.display h4 {
+    font-size: 17px;
+    color: #191919;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    line-height: 24px;
+}
+
+.display p {
+    color: #868686;
+    font-weight: 400;
+    line-height: 24px;
+}
+body, html {
+    height: 100%;
+}
+
+/* Template Design */
+
+.shadow-section {background: url(../img/bg-1.jpg);}
+.shadow-section {
+    position: relative;
+    z-index: 1;
+    background-position: center;
+    background-size: cover;
+}
+
+.shadow-section:after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    background: //* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+    z-index: -1;
+}
+.shadow-content h2 {
+    font-size: 50px;
+    font-family: 'Asiyah Script';
+    font-weight: 400;
+}
+
+.shadow-content {
+    color: #4a4a4a;
+    padding-top: 50px;
+    padding-bottom: 300px;
+}
+
+.shadow-content h4 {
+    color: #D8085E;
+    font-family: inherit;
+}
+
+.shadow-content p {
+    font-size: 14px;
+}
+
+a.shadow-btn {
+    background: #D8085E;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.single-counter {
+    text-align: center;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0px 7px 18px 2px #ddd;
+}
+
+.single-counter i.lnr {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.single-counter h2 {
+    color: #D8085E;
+    font-family: arial;
+    margin-top: 10px
+}
+
+.single-counter p {
+    color: #999;
+    font-weight: 400;
+}
+
+.counter-section {
+    margin-top: -74px;
+    z-index: 2;
+    position: relative;
+    margin-bottom: 50px;
+}
